@@ -1,6 +1,6 @@
-import { getDatabase, set, ref} from 'https://www.gstatic.com/firebasejs/9.6.4/firebase-database.js';
-import { getStorage, ref as stRef, getDownloadURL, uploadBytesResumable } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-storage.js";
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js"; 
+import { getDatabase, set, ref} from 'firebase/database';
+import { getStorage, ref as stRef, getDownloadURL, uploadBytesResumable } from "firebase/storage";
+import { initializeApp } from "firebase/app"; 
 import firebaseConfig from './firebaseConfig';
 
 initializeApp(firebaseConfig);
