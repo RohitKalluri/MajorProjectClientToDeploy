@@ -47,6 +47,7 @@
     "node": "16.13.2",
     "npm": "8.1.2"
   },
-  "module": "esnext"
+  "module": "esnext",
+  "type": "commonjs"
   
 }
