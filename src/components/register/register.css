@@ -1,0 +1,67 @@
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.auth-form {
+  background-color: #14142b;
+  padding: 15px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.register-label {
+  margin-top: 10px;
+  color: #efefef;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+input {
+  border: none;
+  outline: none;
+  line-height: 1;
+  font: 400 16px poppins, sans-serif;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.form-input {
+  height: 1.5rem;
+  width: 20rem;
+  border-radius: 6px;
+  padding: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  outline: none;
+  border: none;
+  width: 8rem;
+  height: 2.1rem;
+  cursor: pointer;
+  line-height: 2;
+  display: block;
+  margin: auto;
+  color: #fcfcfc;
+  background-color: #ff0038;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.file-upload {
+  display: block;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #efefef;
+}

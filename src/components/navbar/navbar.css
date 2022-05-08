@@ -1,0 +1,35 @@
+.navbar {
+  z-index: 5;
+  top: 0;
+  position: fixed;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 7vh;
+  width: 99vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #14142b;
+  color: #fcfcfc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-link {
+  margin-left: 20px;
+  color: #fcfcfc;
+  cursor: pointer;
+  text-decoration: none;
+}

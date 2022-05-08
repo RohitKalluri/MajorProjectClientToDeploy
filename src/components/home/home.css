@@ -1,0 +1,23 @@
+.form-selector {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 90%;
+  padding: 50px;
+  height: 80vh;
+}
+
+.main-header {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.main-img {
+  object-fit: contain;
+  width: 80%;
+}
+
