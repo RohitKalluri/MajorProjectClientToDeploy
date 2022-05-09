@@ -22,15 +22,18 @@ const fetchLogs = async (user) => {
   } catch (error) {
     console.log(error);
   }
+  
   if (snapshot.exists()) {
     var data = snapshot.val()
-    joiningYear = data.joiningYear;
-    name = data.name;
-    section = data.section;
+    console.log('VALUE',data)
+    joiningYear = data.JoiningYear;
+    name = data.Name;
+    section = data.Section;
   } else
     alert('No data available')
 
   var path = 'CVR College/' + joiningYear + '/' + section + '/' + rollNumber + '/Attendance' + '/' + year;
+  console.log(path)
   try {
     snapshot = await get(child(dbref, path));
   } catch (error) {

@@ -1,0 +1,23 @@
+#time {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #time td, #time th {
+    border: 1px solid #ddd;
+    padding: 15px;
+    min-height: 30px;
+  }
+  
+  #time tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #time tr:hover {background-color: #ddd;}
+  
+  #time th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
